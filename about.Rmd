@@ -1,0 +1,21 @@
+---
+title: "Stanisław M. Stanuch"
+image: "tobi.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/stanislawstanuch/"
+  - label: Twitter
+    url: "https://twitter.com/dziennikarz"
+  - label: GitHub
+    url: "https://github.com/sms1962"
+  - label: Email
+    url: "mailto:stanuch@gmail.com"
+output:
+  postcards::solana
+---
+ 
+Z wykształcenia religioznawca, większość życia dziennikarz, a od 8 lat programista R i analityk danych. Wiem wszystko o Twitterze (konto od 2007 roku). 
+
+Wykładowca (od 2010) na Uniwersytecie Papieskim (dziennikarstwo i komunikacja). Pracował w Gazecie Wyborczej (1992 - 2002), Interii (2007 - 2013). Współpraca z magazynem Press (od 2005 roku).  
+
+15 lat (i kilogramów :-) temu maratończyk. 13 maratonów w Polsce i zagranicą. Zapalony rowerzysta.
