@@ -1,7 +1,7 @@
 ---
 title: "Dziennikarz 2.1"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Takie tam, od czasu do czasu
 site: distill::distill_website
 ---
 
@@ -13,3 +13,4 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+Tu na razie jest ściernisko, ale będzie blogowisko 😃

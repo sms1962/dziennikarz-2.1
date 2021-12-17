@@ -1,0 +1,36 @@
+[
+  {
+    "path": "posts/2021-12-17-wpis-demo/",
+    "title": "Wpis demo",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Staś",
+        "url": {}
+      }
+    ],
+    "date": "2021-12-17",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\nNie wiem czemu tego nie ma na stronie.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-12-17T21:14:14+01:00",
+    "input_file": "wpis-demo.knit.md"
+  },
+  {
+    "path": "posts/2005-04-26-owsiak-zrzek-si-wiktora/",
+    "title": "Owsiak zrzekł‚ się Wiktora",
+    "description": "...",
+    "author": [
+      {
+        "name": "Staś",
+        "url": {}
+      }
+    ],
+    "date": "2005-04-26",
+    "categories": [],
+    "contents": "\nJerzy Owsiak zrzekł się otrzymanych nagród Wiktora. W liście do pomysłodawcy nagrody, dziennikarza Józefa Węgrzyna, Owsiak napisał, że Wiktory stały się “instytucją wzajemnej adoracji” i są od lat przyznawane w tym samym gronie - źr. IAR, PAP - - - -\nW jednym z Owsiakiem zgodzić się należy, że Wiktory cały czas dostają te same osoby. Myślę, że w następnych latach lista nominowanych i nagrodzonych wyglądać będzie tak:\nWiktory za …… (wpisz rok)\nNominowani: Tomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Tomasz Lis\nWiktory za …… (wpisz rok)\nNominowani\nTomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Kamil Durczok\nWiecej\nWiktory za …… (wpisz rok)\nNominowani Tomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Justyna Pohanke\nWiktory za …… (wpisz rok) Tomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Monika Olejnik\nWiktory za …… (wpisz rok) Tomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Tomasz Lis\nNominowani\nWiktory za …… (wpisz rok) Tomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Kamil Durczok\nWiktory za …… (wpisz rok) Tomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Justyna Pohanke\nWiktory za …… (wpisz rok) Tomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Monika Olejnik\nNominowani … i tak do konca świata a nawet jeden dzien dłużej :-)\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-12-17T21:31:12+01:00",
+    "input_file": "owsiak-zrzek-si-wiktora.knit.md"
+  }
+]
