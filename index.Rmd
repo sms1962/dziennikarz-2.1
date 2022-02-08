@@ -14,3 +14,5 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 Tu na razie jest ściernisko, ale będzie blogowisko 😃
+
+Chwilowo, proszę nie regulować odbiorników. **Za chwilę dalsza część programu**

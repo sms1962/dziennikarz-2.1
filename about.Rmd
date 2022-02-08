@@ -1,6 +1,6 @@
 ---
 title: "Stanisław M. Stanuch"
-image: "tobi.jpg"
+image: "stanislaw-obciete.jpg"
 links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/stanislawstanuch/"
@@ -18,4 +18,4 @@ Z wykształcenia religioznawca, większość życia dziennikarz, a od 8 lat prog
 
 Wykładowca (od 2010) na Uniwersytecie Papieskim (dziennikarstwo i komunikacja). Pracował w Gazecie Wyborczej (1992 - 2002), Interii (2007 - 2013). Współpraca z magazynem Press (od 2005 roku).  
 
-15 lat (i kilogramów :-) temu maratończyk. 13 maratonów w Polsce i zagranicą. Zapalony rowerzysta.
+Ho, ho (i kilogramów :-) lat temu maratończyk. 13 maratonów w Polsce i zagranicą. Zapalony rowerzysta.

@@ -1,0 +1,28 @@
+---
+title: "Z Nowym Rokiem, nowym krokiem"
+description: |
+  "Dawno" to słowo, ktore nie lubię, bo "dawno" nic nie pisałem na blogu, bo "dawno" postanowiłem, że zmienię silnik. Było to tak dawno, że "dawno" zapomniałem, że chciałem zmienić silnik.
+author:
+  - name: Staś
+date: 2021-12-30
+preview: images/tangerine-newt-o04xDvWE33U-unsplash.jpg
+output:
+  distill::distill_article:
+    self_contained: false
+draft: false
+self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Zacznijmy od tego: stali bywalcy, tak, tak, są tacy, mimo, że ponad rok nic nie pisałem, mogą być zdziwieni. Blog istnieje ho, ho i trochę. Było na nim kilkaset wpisów, a teraz ledwie 3? O co kaman?
+
+![Fot.: Tangerine-Newt https://unsplash.com/@tangerinenewt ](images/tangerine-newt-o04xDvWE33U-unsplash.jpg){.external}
+
+Już tłumaczę. Dawno bo jakieś dwa lata temu postanowiłem, że zmienię silnik bloga. Nie chodziło o jakieś ekstrasy, tylko o wygodę. Używany przeze mnie wówczas [Blogdown](https://blogdown.org) ma wiele zalet, ale jedną wadę: jeśli wpisy zawierają kod, a biblioteki wykorzystywane w kodzie się zmieniają, to często jest tak, że przez błąd w jednym artykule, cały blog "wisi", bo nie można wygenerować pozostałych.
+
+Trochę to było denerwujące i wtedy natrafiłem na [Distill](https://distill.rstudio.com), bajecznie prosty, ale niezwykle miły w zarządzaniu blog. Oczywiście napisany w R. No i zakochałem się.
+
+Samo jego postawienie jest bajecznie proste, ale problemy zaczęły być przy migracji postów z poprzedniej instancji. Najpierw odwlekałem by się za to wziać, a potem już wiedziałem co zrobić, ale zawsze była jakaś "maniana" i nie stawiałem. Nie będę tłumaczył dlaczego, bo pewnie mało to kogo interesuje, ale postanowiłem, że postawię bloga jak jest, dodam kilka notek z archiwum, a kolejne będę sukcesywnie dodawał. Tak zrobiłem, no i jest mój stary-nowy blogasek :-)

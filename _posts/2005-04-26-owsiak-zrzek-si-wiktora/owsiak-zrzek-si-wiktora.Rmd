@@ -9,6 +9,7 @@ date: 2005-04-26
 output:
   distill::distill_article:
     self_contained: false
+draft: TRUE
 ---
 *Jerzy Owsiak zrzekł się otrzymanych nagród Wiktora. W liście do pomysłodawcy nagrody, dziennikarza Józefa Węgrzyna, Owsiak napisał, że Wiktory stały się "instytucją wzajemnej adoracji" i są od lat przyznawane w tym samym gronie - źr. IAR, PAP*
 - - - -

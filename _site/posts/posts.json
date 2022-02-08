@@ -1,36 +1,19 @@
 [
   {
-    "path": "posts/2021-12-17-wpis-demo/",
-    "title": "Wpis demo",
-    "description": "A short description of the post.",
+    "path": "posts/2021-12-30-z-nowym-rokiem-nowym-krokiem/",
+    "title": "Z Nowym Rokiem, nowym krokiem",
+    "description": "\"Dawno\" to słowo, ktore nie lubię, bo \"dawno\" nic nie pisałem na blogu, bo \"dawno\" postanowiłem, że zmienię silnik. Było to tak dawno, że \"dawno\" zapomniałem, że chciałem zmienić silnik.",
     "author": [
       {
         "name": "Staś",
         "url": {}
       }
     ],
-    "date": "2021-12-17",
+    "date": "2021-12-30",
     "categories": [],
-    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\nNie wiem czemu tego nie ma na stronie.\n\n\n\n",
-    "preview": {},
-    "last_modified": "2021-12-17T21:14:14+01:00",
-    "input_file": "wpis-demo.knit.md"
-  },
-  {
-    "path": "posts/2005-04-26-owsiak-zrzek-si-wiktora/",
-    "title": "Owsiak zrzekł‚ się Wiktora",
-    "description": "...",
-    "author": [
-      {
-        "name": "Staś",
-        "url": {}
-      }
-    ],
-    "date": "2005-04-26",
-    "categories": [],
-    "contents": "\nJerzy Owsiak zrzekł się otrzymanych nagród Wiktora. W liście do pomysłodawcy nagrody, dziennikarza Józefa Węgrzyna, Owsiak napisał, że Wiktory stały się “instytucją wzajemnej adoracji” i są od lat przyznawane w tym samym gronie - źr. IAR, PAP - - - -\nW jednym z Owsiakiem zgodzić się należy, że Wiktory cały czas dostają te same osoby. Myślę, że w następnych latach lista nominowanych i nagrodzonych wyglądać będzie tak:\nWiktory za …… (wpisz rok)\nNominowani: Tomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Tomasz Lis\nWiktory za …… (wpisz rok)\nNominowani\nTomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Kamil Durczok\nWiecej\nWiktory za …… (wpisz rok)\nNominowani Tomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Justyna Pohanke\nWiktory za …… (wpisz rok) Tomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Monika Olejnik\nWiktory za …… (wpisz rok) Tomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Tomasz Lis\nNominowani\nWiktory za …… (wpisz rok) Tomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Kamil Durczok\nWiktory za …… (wpisz rok) Tomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Justyna Pohanke\nWiktory za …… (wpisz rok) Tomasz Lis Kamil Durczok Justyna Pohanke Monika Olejnik\nWiktor dla: Monika Olejnik\nNominowani … i tak do konca świata a nawet jeden dzien dłużej :-)\n\n\n\n",
-    "preview": {},
-    "last_modified": "2021-12-17T21:31:12+01:00",
-    "input_file": "owsiak-zrzek-si-wiktora.knit.md"
+    "contents": "\nZacznijmy od tego: stali bywalcy, tak, tak, są tacy, mimo, że ponad rok nic nie pisałem, mogą być zdziwieni. Blog istnieje ho, ho i trochę. Było na nim kilkaset wpisów, a teraz ledwie 3? O co kaman?\nFot.: Tangerine-Newt https://unsplash.com/@tangerinenewtJuż tłumaczę. Dawno bo jakieś dwa lata temu postanowiłem, że zmienię silnik bloga. Nie chodziło o jakieś ekstrasy, tylko o wygodę. Używany przeze mnie wówczas Blogdown ma wiele zalet, ale jedną wadę: jeśli wpisy zawierają kod, a biblioteki wykorzystywane w kodzie się zmieniają, to często jest tak, że przez błąd w jednym artykule, cały blog “wisi”, bo nie można wygenerować pozostałych.\nTrochę to było denerwujące i wtedy natrafiłem na Distill, bajecznie prosty, ale niezwykle miły w zarządzaniu blog. Oczywiście napisany w R. No i zakochałem się.\nSamo jego postawienie jest bajecznie proste, ale problemy zaczęły być przy migracji postów z poprzedniej instancji. Najpierw odwlekałem by się za to wziać, a potem już wiedziałem co zrobić, ale zawsze była jakaś “maniana” i nie stawiałem. Nie będę tłumaczył dlaczego, bo pewnie mało to kogo interesuje, ale postanowiłem, że postawię bloga jak jest, dodam kilka notek z archiwum, a kolejne będę sukcesywnie dodawał. Tak zrobiłem, no i jest mój stary-nowy blogasek :-)\n\n\n\n",
+    "preview": "posts/2021-12-30-z-nowym-rokiem-nowym-krokiem/images/tangerine-newt-o04xDvWE33U-unsplash.jpg",
+    "last_modified": "2022-02-08T20:04:25+01:00",
+    "input_file": "z-nowym-rokiem-nowym-krokiem.knit.md"
   }
 ]
