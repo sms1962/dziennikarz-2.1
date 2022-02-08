@@ -2,17 +2,17 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "Tobi Burns",
+      "title": "Stanisław M. Stanuch",
       "author": [],
-      "contents": "\ntitle: “Stanisław M. Stanuch” image: “stanislaw-obciete.jpg” links: - label: LinkedIn url: “https://www.linkedin.com/in/stanislawstanuch/” - label: Twitter url: “https://twitter.com/dziennikarz” - label: GitHub url: “https://github.com/sms1962” - label: Email url: “mailto:stanuch@gmail.com” output: postcards::jolla —\nI am a classically trained data scientist living in the San Francisco Bay Area. Currently I work on the Oculus team at Facebook. I love talking about baseball, true crime podcasts, and causal inference.\n\n\n\n",
-      "last_modified": "2022-02-08T20:51:20+01:00"
+      "contents": "\n\n          \n          \n          Dziennikarz 2.1\n          \n          \n          Blogasek\n          Ebałt\n          ☰\n          \n          \n      \n        \n          \n            Stanisław M. Stanuch\n          \n          \n            \n              I am a classically trained data scientist living in the San Francisco Bay Area. Currently I work on the Oculus team at Facebook. I love talking about baseball, true crime podcasts, and causal inference.\n            \n            \n              I am a classically trained data scientist living in the San Francisco Bay Area. Currently I work on the Oculus team at Facebook. I love talking about baseball, true crime podcasts, and causal inference.\n            \n          \n\n          \n            \n              \n                  \n                    \n                      LinkedIn\n                    \n                  \n                \n                                \n                  \n                    \n                      Twitter\n                    \n                  \n                \n                                \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    LinkedIn\n                  \n                \n                                \n                  \n                    Twitter\n                  \n                \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2022-02-08T20:55:55+01:00"
     },
     {
       "path": "blog.html",
       "title": "Blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-02-08T20:51:22+01:00"
+      "last_modified": "2022-02-08T20:55:57+01:00"
     },
     {
       "path": "index.html",
@@ -20,14 +20,14 @@
       "description": "Takie tam, od czasu do czasu\n",
       "author": [],
       "contents": "\nTu na razie jest ściernisko, ale będzie blogowisko 😃\nChwilowo, proszę nie regulować odbiorników. Za chwilę dalsza część programu\n\n\n\n",
-      "last_modified": "2022-02-08T20:51:24+01:00"
+      "last_modified": "2022-02-08T20:55:59+01:00"
     },
     {
       "path": "old_about.html",
       "title": "Stanisław M. Stanuch",
       "author": [],
       "contents": "\n\n          \n          \n          Dziennikarz 2.1\n          \n          \n          Blogasek\n          Ebałt\n          ☰\n          \n          \n      \n        \n          Stanisław M. Stanuch\n          \n            \n                \n                  \n                    LinkedIn\n                  \n                \n              \n                            \n                \n                  \n                    Twitter\n                  \n                \n              \n                            \n                \n                  \n                    GitHub\n                  \n                \n              \n                            \n                \n                  \n                    Email\n                  \n                \n              \n                          \n        \n\n        \n          \n      \n      \n        \n          Z wykształcenia religioznawca, większość życia dziennikarz, a od 8 lat programista R i analityk danych. Wiem wszystko o Twitterze (konto od 2007 roku).\n          Wykładowca (od 2010) na Uniwersytecie Papieskim (dziennikarstwo i komunikacja). Pracował w Gazecie Wyborczej (1992 - 2002), Interii (2007 - 2013). Współpraca z magazynem Press (od 2005 roku).\n          Ho, ho (i kilogramów :-) lat temu maratończyk. 13 maratonów w Polsce i zagranicą. Zapalony rowerzysta.\n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Stanisław M. Stanuch\n            \n            \n              \n                \n                                    \n                    \n                      LinkedIn\n                    \n                  \n                                    \n                    \n                      Twitter\n                    \n                  \n                                    \n                    \n                      GitHub\n                    \n                  \n                                    \n                    \n                      Email\n                    \n                  \n                                  \n              \n            \n            \n              Z wykształcenia religioznawca, większość życia dziennikarz, a od 8 lat programista R i analityk danych. Wiem wszystko o Twitterze (konto od 2007 roku).\n              Wykładowca (od 2010) na Uniwersytecie Papieskim (dziennikarstwo i komunikacja). Pracował w Gazecie Wyborczej (1992 - 2002), Interii (2007 - 2013). Współpraca z magazynem Press (od 2005 roku).\n              Ho, ho (i kilogramów :-) lat temu maratończyk. 13 maratonów w Polsce i zagranicą. Zapalony rowerzysta.\n            \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2022-02-08T20:51:25+01:00"
+      "last_modified": "2022-02-08T20:55:59+01:00"
     },
     {
       "path": "old_index.html",
@@ -35,7 +35,7 @@
       "description": "Takie tam, od czasu do czasu\n",
       "author": [],
       "contents": "\nTu na razie jest ściernisko, ale będzie blogowisko 😃\nChwilowo, proszę nie regulować odbiorników. Za chwilę dalsza część programu\n\n\n\n",
-      "last_modified": "2022-02-08T20:51:26+01:00"
+      "last_modified": "2022-02-08T20:56:01+01:00"
     }
   ],
   "collections": ["posts/posts.json"]

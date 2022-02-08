@@ -1,16 +1,4 @@
 ---
-title: "Tobi Burns"
-image: "tobi.jpg"
-links:
-  - label: LinkedIn
-    url: "https://linkedin.com/"
-  - label: Twitter
-    url: "https://twitter.com/"
-  - label: GitHub
-    url: "https://github.com/"
-  - label: Email
-    url: "mailto:email@email.com"
----
 title: "Stanisław M. Stanuch"
 image: "stanislaw-obciete.jpg"
 links:
