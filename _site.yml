@@ -8,5 +8,5 @@ navbar:
     - text: "Blogasek"
       href: blog.html
     - text: "Ebałt"
-      href: indext.html
+      href: about.html
 output: distill::distill_article
