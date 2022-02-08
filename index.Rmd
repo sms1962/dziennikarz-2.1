@@ -1,18 +1,20 @@
 ---
-title: "Dziennikarz 2.1"
-description: |
-  Takie tam, od czasu do czasu
+title: "Stanisław M. Stanuch"
+image: "stanislaw-obciete.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/stanislawstanuch/"
+  - label: Twitter
+    url: "https://twitter.com/dziennikarz"
+  - label: GitHub
+    url: "https://github.com/sms1962"
+  - label: Email
+    url: "mailto:stanuch@gmail.com"
+output:
+  postcards::jolla
 site: distill::distill_website
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-```
-
-Tu na razie jest ściernisko, ale będzie blogowisko 😃
-
-Chwilowo, proszę nie regulować odbiorników. **Za chwilę dalsza część programu**
+ 
+I am a classically trained data scientist living in the San Francisco Bay Area. 
+Currently I work on the Oculus team at Facebook. I love talking about baseball, 
+true crime podcasts, and causal inference.
