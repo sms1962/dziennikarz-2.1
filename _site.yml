@@ -3,6 +3,7 @@ title: "Dziennikarz 2.1"
 description: |
   Dziennikarz 2.1
 output_dir: "_site"
+base_url: https://dziennikarz.pl/
 navbar:
   right:
     - text: "Blogasek"
