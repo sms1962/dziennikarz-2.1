@@ -11,7 +11,7 @@ links:
   - label: Email
     url: "mailto:stanuch@gmail.com"
 output:
-  postcards::jolla
+  postcards::solana
 site: distill::distill_website
 ---
 

@@ -8,6 +8,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <style type="text/css">body {font-family: 'Roboto Mono', serif;}</style>
+
+    <style>
+      @media screen and (min-width: 768px) {
+        .container {
+          width: 768px;
+        }
+      }
+
+      body {
+        background-color: #f5e9dd;
+      }
+    </style>
+
     <title>Stanisław M. Stanuch</title>
 
     
@@ -651,89 +666,101 @@
           <!--radix_placeholder_site_before_body-->
           <!--/radix_placeholder_site_before_body-->
     
-    <div class="container min-vh-100">
-      <div class="row min-vh-100 justify-content-center align-items-center">
-        <div class="col-12 text-center">
-          <img src="stanislaw-obciete.jpg" style="height:10rem" class="rounded-circle">
-          <div class="mt-3">
-            <h1>Stanisław M. Stanuch</h1>
-          </div>
-          <div class="row justify-content-center align-items-center">
-            <div class="col-6 mt-3 text-center d-none d-sm-block">
-              <p>Z wykształcenia religioznawca, większość życia dziennikarz, a od 8 lat programista R i analityk danych. Wiem wszystko o Twitterze (konto od 2007 roku).</p>
-              <p>Wykładowca (od 2010) na Uniwersytecie Papieskim (dziennikarstwo i komunikacja). Pracował w Gazecie Wyborczej (1992 - 2002), Interii (2007 - 2013). Współpraca z magazynem Press (od 2005 roku).</p>
-              <p>Ho, ho (i kilogramów :-) lat temu maratończyk. 13 maratonów w Polsce i zagranicą. Zapalony rowerzysta.</p>
-            </div>
-            <div class="col-11 mt-3 text-center d-block d-sm-none">
-              <p>Z wykształcenia religioznawca, większość życia dziennikarz, a od 8 lat programista R i analityk danych. Wiem wszystko o Twitterze (konto od 2007 roku).</p>
-              <p>Wykładowca (od 2010) na Uniwersytecie Papieskim (dziennikarstwo i komunikacja). Pracował w Gazecie Wyborczej (1992 - 2002), Interii (2007 - 2013). Współpraca z magazynem Press (od 2005 roku).</p>
-              <p>Ho, ho (i kilogramów :-) lat temu maratończyk. 13 maratonów w Polsce i zagranicą. Zapalony rowerzysta.</p>
-            </div>
-          </div>
-
-          <hr style="width:60%;"/>
-
-          <div class="row justify-content-center align-items-center">
-            <div class="col-8 text-center d-none d-sm-block">
-              <ul class="list-inline">
-                                <li class="list-inline-item">
-                  <a href=https://www.linkedin.com/in/stanislawstanuch/>
-                    <button type="button" class="btn btn-outline-dark mb-2">
-                      LinkedIn
-                    </button>
-                  </a>
-                </li>
-                                <li class="list-inline-item">
-                  <a href=https://twitter.com/dziennikarz>
-                    <button type="button" class="btn btn-outline-dark mb-2">
-                      Twitter
-                    </button>
-                  </a>
-                </li>
-                                <li class="list-inline-item">
-                  <a href=https://github.com/sms1962>
-                    <button type="button" class="btn btn-outline-dark mb-2">
-                      GitHub
-                    </button>
-                  </a>
-                </li>
-                                <li class="list-inline-item">
-                  <a href=mailto:stanuch@gmail.com>
-                    <button type="button" class="btn btn-outline-dark mb-2">
-                      Email
-                    </button>
-                  </a>
-                </li>
-                              </ul>
-            </div>
-          </div>
-
-          <div class="row justify-content-center align-items-center">
-            <div class="col-8 m-1 text-center d-block d-sm-none">
-              <div class="list-group">
-                                <a href=https://www.linkedin.com/in/stanislawstanuch/>
-                  <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+    <div class="container d-none d-lg-block d-xl-block">
+      <div class="row mt-5">
+        <div class="col-7 mt-5">
+          <h1>Stanisław M. Stanuch</h1>
+          <hr style="max-width: 200px; margin-left:0;" style="width:60%;"/>
+          <div class="my-3" id="icon-list">
+            <ul class="list-inline">
+                            <li class="list-inline-item">
+                <a href=https://www.linkedin.com/in/stanislawstanuch/>
+                  <button type="button" class="btn btn-outline-dark mb-2">
                     LinkedIn
                   </button>
                 </a>
-                                <a href=https://twitter.com/dziennikarz>
-                  <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+              </li>
+                            <li class="list-inline-item">
+                <a href=https://twitter.com/dziennikarz>
+                  <button type="button" class="btn btn-outline-dark mb-2">
                     Twitter
                   </button>
                 </a>
-                                <a href=https://github.com/sms1962>
-                  <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+              </li>
+                            <li class="list-inline-item">
+                <a href=https://github.com/sms1962>
+                  <button type="button" class="btn btn-outline-dark mb-2">
                     GitHub
                   </button>
                 </a>
-                                <a href=mailto:stanuch@gmail.com>
-                  <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+              </li>
+                            <li class="list-inline-item">
+                <a href=mailto:stanuch@gmail.com>
+                  <button type="button" class="btn btn-outline-dark mb-2">
                     Email
                   </button>
                 </a>
-                              </div>
-            </div>
+              </li>
+                          </ul>
           </div>
+        </div>
+
+        <div class="col mr-4 mt-5">
+          <img src="stanislaw-obciete.jpg" style="height:15rem" class="rounded float-right">
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col">
+          <p>Z wykształcenia religioznawca, większość życia dziennikarz, a od 8 lat programista R i analityk danych. Wiem wszystko o Twitterze (konto od 2007 roku).</p>
+          <p>Wykładowca (od 2010) na Uniwersytecie Papieskim (dziennikarstwo i komunikacja). Pracował w Gazecie Wyborczej (1992 - 2002), Interii (2007 - 2013). Współpraca z magazynem Press (od 2005 roku).</p>
+          <p>Ho, ho (i kilogramów :-) lat temu maratończyk. 13 maratonów w Polsce i zagranicą. Zapalony rowerzysta.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-block d-lg-none d-xl-none">
+      <div class="d-flex flex-row justify-content-center">
+        <div class="d-flex flex-col">
+          <div class="mx-auto">
+            <div class="p-3 mt-3 text-center">
+              <img src="stanislaw-obciete.jpg" style="height:15rem" class="rounded">
+            </div>
+            <div class="p-2 text-center">
+              <h1>Stanisław M. Stanuch</h1>
+            </div>
+            <hr style="width:60%;"/>
+
+            <div class="row justify-content-center align-items-center">
+              <div class="col-8 p-1 text-center">
+                <div class="list-group">
+                                    <a href=https://www.linkedin.com/in/stanislawstanuch/>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: #f5e9dd; color: black;border-color: black;">
+                      LinkedIn
+                    </button>
+                  </a>
+                                    <a href=https://twitter.com/dziennikarz>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: #f5e9dd; color: black;border-color: black;">
+                      Twitter
+                    </button>
+                  </a>
+                                    <a href=https://github.com/sms1962>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: #f5e9dd; color: black;border-color: black;">
+                      GitHub
+                    </button>
+                  </a>
+                                    <a href=mailto:stanuch@gmail.com>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: #f5e9dd; color: black;border-color: black;">
+                      Email
+                    </button>
+                  </a>
+                                  </div>
+              </div>
+            </div>
+            <div class="mt-4 mb-5 mx-2">
+              <p>Z wykształcenia religioznawca, większość życia dziennikarz, a od 8 lat programista R i analityk danych. Wiem wszystko o Twitterze (konto od 2007 roku).</p>
+              <p>Wykładowca (od 2010) na Uniwersytecie Papieskim (dziennikarstwo i komunikacja). Pracował w Gazecie Wyborczej (1992 - 2002), Interii (2007 - 2013). Współpraca z magazynem Press (od 2005 roku).</p>
+              <p>Ho, ho (i kilogramów :-) lat temu maratończyk. 13 maratonów w Polsce i zagranicą. Zapalony rowerzysta.</p>
+            </div>
         </div>
       </div>
     </div>
