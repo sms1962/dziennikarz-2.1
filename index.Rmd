@@ -1,6 +1,10 @@
 ---
 title: "Stanisław M. Stanuch"
 image: "stanislaw-obciete.jpg"
+preview: share-card.png
+twitter:
+  site: "@dziennikarz"
+  creator: "@dziennikarz"
 links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/stanislawstanuch/"
