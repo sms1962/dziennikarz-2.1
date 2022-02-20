@@ -14,6 +14,6 @@
     "contents": "\nZacznijmy od tego: stali bywalcy, tak, tak, są tacy, mimo, że ponad rok nic nie pisałem, mogą być zdziwieni. Blog istnieje ho, ho i trochę. Było na nim kilkaset wpisów, a teraz ledwie 3? O co kaman?\nFot.: Tangerine-Newt https://unsplash.com/@tangerinenewtJuż tłumaczę. Dawno bo jakieś dwa lata temu postanowiłem, że zmienię silnik bloga. Nie chodziło o jakieś ekstrasy, tylko o wygodę. Używany przeze mnie wówczas Blogdown ma wiele zalet, ale jedną wadę: jeśli wpisy zawierają kod, a biblioteki wykorzystywane w kodzie się zmieniają, to często jest tak, że przez błąd w jednym artykule, cały blog “wisi”, bo nie można wygenerować pozostałych.\nTrochę to było denerwujące i wtedy natrafiłem na Distill, bajecznie prosty, ale niezwykle miły w zarządzaniu blog. Oczywiście napisany w R. No i zakochałem się.\nSamo jego postawienie jest bajecznie proste, ale problemy zaczęły być przy migracji postów z poprzedniej instancji. Najpierw odwlekałem by się za to wziać, a potem już wiedziałem co zrobić, ale zawsze była jakaś “maniana” i nie stawiałem. Nie będę tłumaczył dlaczego, bo pewnie mało to kogo interesuje, ale postanowiłem, że postawię bloga jak jest, dodam kilka notek z archiwum, a kolejne będę sukcesywnie dodawał. Tak zrobiłem, no i jest mój stary-nowy blogasek :-)\n\n\n\n",
     "preview": "posts/2021-12-30-z-nowym-rokiem-nowym-krokiem/images/tangerine-newt-o04xDvWE33U-unsplash.jpg",
     "last_modified": "2022-02-08T21:32:17+01:00",
-    "input_file": "z-nowym-rokiem-nowym-krokiem.knit.md"
+    "input_file": {}
   }
 ]

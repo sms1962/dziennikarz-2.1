@@ -14,6 +14,24 @@ output:
   postcards::solana
 site: distill::distill_website
 ---
+```{r metathis, echo=FALSE}
+library(metathis)
+meta() %>%
+  # meta_name("github-repo" = "gadenbuie/build-your-own-universe") %>%
+  meta_social(
+    title = "Dziennikarz.pl",
+    description = 
+      "Takie tam o tym i owym",
+    url = "https://dziennikarz.pl",
+    image = "https://dziennikarz.pl/share-card.png",
+    image_alt = "Dziennikarz.pl",
+    og_type = "website",
+    og_author = "Stanisław M. Stanuch",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@dziennikarz",
+    twitter_site = "@dziennikarz"
+  )
+```
 
 Z wykształcenia religioznawca, większość życia dziennikarz, a od 8 lat programista R i analityk danych. Wiem wszystko o Twitterze (konto od 2007 roku).
 
