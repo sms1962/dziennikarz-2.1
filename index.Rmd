@@ -23,7 +23,7 @@ meta() %>%
     description = 
       "Takie tam o tym i owym",
     url = "https://dziennikarz.pl",
-    image = "https://dziennikarz.pl/share-card.png",
+    image = "share-card.png",
     image_alt = "Dziennikarz.pl",
     og_type = "website",
     og_author = "Stanisław M. Stanuch",
