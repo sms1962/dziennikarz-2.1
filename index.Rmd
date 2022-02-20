@@ -1,5 +1,6 @@
 ---
 title: "Stanisław M. Stanuch"
+base_url: https://dziennikarz.pl
 image: "stanislaw-obciete.jpg"
 preview: share-card.png
 twitter:
