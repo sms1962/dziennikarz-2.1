@@ -1,0 +1,21 @@
+---
+title: "Najpopularniejsze imiona, nadane polskim dzieciom w XXI wieku"
+description: |
+  Tylko niecałe 4 proc. z ponad 3 tys. imion, nadanych dzieciom w Polsce jest naprawdę popularnych. Pozostałe 96 proc. to imiona popularne w pierwszej i drugiej połowie XX wieku, niezwykle rzadkie lub obce. Powoli znikają z przestrzeni publicznej imiona dziadków i często rodziców, czyli takie, które nadawane były dzieciom w pierwszej połowie XX wieku. Są jednak od tej reguły wyjątki.
+author: Stanisław M. Stanuch
+date: 2022-03-03
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(gt)
+library(gtExtras)
+library(janitor)
+```
+
