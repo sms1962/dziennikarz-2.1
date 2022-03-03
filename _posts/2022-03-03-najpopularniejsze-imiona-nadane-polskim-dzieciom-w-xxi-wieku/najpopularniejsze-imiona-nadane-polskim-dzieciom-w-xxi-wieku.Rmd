@@ -17,5 +17,81 @@ library(tidyverse)
 library(gt)
 library(gtExtras)
 library(janitor)
+
+```
+
+```{r wczytanie_danych, include=FALSE, cache=TRUE}
+
+imiona_2000_2019 <- readr::read_csv("https://raw.githubusercontent.com/sms1962/dziennikarz-2.1/main/data/Imiona_nadane_wPolsce_w_latach_2000-2019.csv") %>% 
+  clean_names()
+
+#
+wczytaj <- function(plik, rok) {
+  dane <- read_csv(plik) %>% 
+    mutate(rok = rok) %>% 
+    rename(imie = "IMIĘ_PIERWSZE",
+           plec = "PŁEĆ",
+           liczba = "LICZBA_WYSTĄPIEŃ") %>% 
+    mutate(plec = if_else(plec == "MĘŻCZYZNA", "M","K")) %>% 
+    select(rok,imie,liczba, plec) %>% 
+    group_by(rok,imie, plec) %>% 
+    summarise(liczba = sum(liczba)) %>% 
+    ungroup() %>% 
+    arrange(desc(liczba))
+  
+  return(dane)
+}
+
+# lista_plikow <- list.files(path = "data",pattern = "imiona_",  full.names = TRUE)
+lista_plikow <- c("https://raw.githubusercontent.com/sms1962/dziennikarz-2.1/main/data/imiona_meskie_2020.csv", "https://raw.githubusercontent.com/sms1962/dziennikarz-2.1/main/data/imiona_meskie_2021.csv", "https://raw.githubusercontent.com/sms1962/dziennikarz-2.1/main/data/imiona_zenskie_2020.csv", "https://raw.githubusercontent.com/sms1962/dziennikarz-2.1/main/data/imiona_zenskie_2021.csv")
+
+rok <- c(2020,2021,2020,2021)
+
+imiona_reszta <- map2_df(.x = lista_plikow, .f = wczytaj, rok)
+imiona <- bind_rows(imiona_2000_2019, imiona_reszta) %>% 
+  mutate(imie = str_to_title(imie, locale = "pl"))
+
+# usuwam niepotrzebne pliki cząstkowe
+rm(imiona_2000_2019, imiona_reszta)
+```
+
+
+```{r sprwdzanie_imion}
+
+test_imion <- imiona %>% 
+  group_by(imie) %>% 
+  distinct(plec) %>% 
+  count() %>% 
+  ungroup() %>% 
+  filter(n>1)
+
+# Aha, czyli są błędy np. Szymon płci męskiej czy żeńskiej
+# wszystkich imion nie sprawdzimy, ale zobaczmy dystrybucję imion, które mają dwie płcie
+
+# Ile jest w sumie wystąpień imion, które mają dwie płcie?
+imiona_hist <- imiona %>% 
+  group_by(imie, plec) %>% 
+  summarise(ile = sum(liczba)) %>% 
+  ungroup() %>% 
+  right_join(test_imion, by = "imie") %>% 
+  arrange(desc(ile)) %>% 
+  filter(ile >= 10000)
+
+imiona_hist
+```
+To nieznaczne błędy, bo np. imię *Szymon* dwa razy przypisano dziewczynce, ale takie błędy mogą później generowac inne błedy, często trudne do wychwycenia. Dlatego najlepiej je od razu usnąć. 
+Mamy dwa wyjścia: usunąć błędne wystąpienia np. *Szymon* i płeć *K*, albo zmienić "płeć" wszystkich Szymonów, w tym tych, dwóch, które są "kobietami" na płec *M*. Wybierzemy to drugie rozwiązanie, ale tylko dla imion, które wystąpiły co  najmniej 10 tys. razy w okresie od poczatku XXI wieku.
+
+```{r laczenie_bledow_plci}
+imiona <- imiona %>% 
+  mutate(plec = case_when(
+    imie %in%  c("Szymon","Igor", "Daniel","Fabian") ~ "M",
+    imie %in% c("Nikola","Milena") ~ "K",
+    TRUE ~ plec
+  )) %>% 
+  group_by(imie, rok, plec) %>% 
+  summarise(liczba = sum(liczba)) %>% 
+  ungroup()
+
 ```
 
